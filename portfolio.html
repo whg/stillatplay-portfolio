@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  
+<body>
+
+  <div id="container">
+
+    <div id="logo-container">
+      <img src="imgs/stillatplay-logo.png" alt="stillatplay" class="logo"/>
+      <span>Programs written by <a href="http://wgallia.com">Will Gallia</a></span>
+    </div>
+  
+    <h1>Samsung Level</h1>
+<h2><span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(219, 229, 114);">openFrameworks</span>, <span style="color: rgb(187, 114, 229);">DMX</span>, <span style="color: rgb(114, 229, 198);">MIDI</span></h2>
+<p>An <span style="color: rgb(219, 229, 114);">openFrameworks</span> application to simulate and map realtime <span style="color: rgb(114, 229, 198);">MIDI</span> to over 30 <span style="color: rgb(187, 114, 229);">DMX</span>
+lights (Sharpys, Nitros and Strobes).</p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/JIjayCgumHQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Working with Chris Cairns I developed an application to light up a
+half built theatre. This involved receiving <span style="color: rgb(114, 229, 198);">MIDI</span> from a Native
+Instruments Maschine and mapping the <span style="color: rgb(114, 229, 198);">MIDI</span> to a selection of
+lights. The application also send animations to a Novation Launchpad
+(via <span style="color: rgb(114, 229, 198);">MIDI</span>). Full control over mappings, sequences, colours was
+available through the app for tweaking while the shoot.</p>
+<h1><a href="http://www.wekinator.org/">Wekinator</a> on the iPhone</h1>
+<h2><span style="color: rgb(114, 166, 229);">Machine Learning</span>, <span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(156, 229, 114);">iOS</span>, <span style="color: rgb(219, 229, 114);">openFrameworks</span></h2>
+<iframe src="https://player.vimeo.com/video/125445510?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>Working with the <a href="http://eavi.goldsmithsdigital.com/">EAVI</a> group at Goldsmiths I wrote a prototype <span style="color: rgb(156, 229, 114);">iOS</span> app to implement
+the general concept of <a href="http://www.doc.gold.ac.uk/~mas01rf/Rebecca_Fiebrink_Goldsmiths/welcome.html">Rebecca Fiebrink</a>'s <a href="http://www.wekinator.org/">Wekinator</a>. This creates intuitive musical
+instruments, by learning how you want the instrument to behave.</p>
+<p>Under the hood it uses regression via a neural network to estimate
+the function of the control (for example filter cutoff) with respect
+to orientation.</p>
+<p>I presented a talk about the app at the Guerilla Science tent at
+Secret Garden Party 2014.</p>
+<h1>Samsung 360</h1>
+<h2><span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(114, 229, 229);"><a href="http://www.d3technologies.com/">d3</a></span></h2>
+<p>Sound reactive visuals to showcase a speaker.</p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/qjuPh2qI8ts?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Working at <a href="http://artisan.co.uk">Artisan</a> (the commercial branch of <a href="http://uva.co.uk">United Visual Artists</a>),
+I co-wrote a <span style="color: rgb(114, 229, 229);"><a href="http://www.d3technologies.com/">d3</a></span> module in <span style="color: rgb(125, 229, 114);">C++</span> for projecting visuals onto a large screen. </p>
+<h1>AMorpher</h1>
+<h2><span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(219, 229, 114);">openFrameworks</span>, <span style="color: rgb(114, 198, 229);">surface reconstruction</span>, <span style="color: rgb(229, 114, 208);">3D modelling</span></h2>
+<p>For Alicia Ongar Perez sculptor I created a application to import two STL models,
+interpolate between 3D shapes and export.</p>
+<p><img alt="AMorpher" src="imgs/amorpher.gif" title="AMorpher process" /></p>
+<p>I created a tool to move between two 3D models. There were two main
+challenges here; the first was how do you move between two volumes and
+the second was how do you create a water-tight, 3D print-able shape.</p>
+<p>To address the first problem, I first resampled all meshes in meshlab
+to have the same number of points and then I wrote a number of
+tranformations, but the most succesful was what I called a spherical
+mapping. This projected all points in the mesh onto the sphere that
+encompassed all these points, then points from the second mesh were
+mapped onto the closest points on this sphere.</p>
+<p>For the second problem, I used <a href="https://www.cs.jhu.edu/~bolitho/Research/PoissonSurfaceReconstruction/">Poisson Surface Reconstruction</a> to
+create a mesh that could be exported to STL.</p>
+<h1>Inflated Egos</h1>
+<h2><span style="color: rgb(229, 114, 177);">Python</span>, <span style="color: rgb(114, 135, 229);">OSC</span>, <span style="color: rgb(156, 114, 229);">websockets</span>, <span style="color: rgb(219, 229, 114);">openFrameworks</span>, <span style="color: rgb(229, 114, 114);">Twitter API</span>, <span style="color: rgb(229, 146, 114);">tmux</span>, <span style="color: rgb(125, 114, 229);">Arduino</span>, <span style="color: rgb(229, 177, 114);">SQLite</span>, <span style="color: rgb(114, 229, 166);">MongoDB</span></h2>
+<iframe src="https://player.vimeo.com/video/126641509?title=0&byline=0&portrait=0" width="800" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>Four <a href="http://www.intel.co.uk/content/www/uk/en/nuc/overview.html">Intel NUC</a>s running Xbuntu, each driving two monitors, displaying live Tweets.
+Another machine running an <span style="color: rgb(219, 229, 114);">openFrameworks</span> app to detect balloon sizes
+with a <span style="color: rgb(114, 229, 135);">Kinect</span>. An <span style="color: rgb(125, 114, 229);">Arduino</span> to control the size of the balloon. Lots of <span style="color: rgb(114, 135, 229);">OSC</span>, <span style="color: rgb(156, 114, 229);">websockets</span> and some serial.</p>
+<p>Databases (<span style="color: rgb(229, 177, 114);">SQLite</span> &amp; <span style="color: rgb(114, 229, 166);">MongoDB</span>) were used to store data and also cache
+tweets, in order to play a recorded period of time.</p>
+<h1>AUM</h1>
+<h2><span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(219, 114, 229);">DSP</span>, <span style="color: rgb(229, 208, 114);">Objective-C</span>, <span style="color: rgb(156, 229, 114);">iOS</span></h2>
+<p><img alt="AUM" src="imgs/aum-iphone4.png" title="AUM" /></p>
+<p>Working with <a href="https://twitter.com/p_chanq">Pierre Chanquion</a>, I co-wrote a <span style="color: rgb(125, 229, 114);">C++</span> library to transmit messages over ultrasonic audio. The only dependency for the library is fftw. I also wrote an <span style="color: rgb(156, 229, 114);">iOS</span> app to demo the library.</p>
+<h1>Tryptich</h1>
+<h2><span style="color: rgb(125, 229, 114);">C++</span>, <span style="color: rgb(219, 229, 114);">openFrameworks</span>, <span style="color: rgb(114, 229, 135);">Kinect</span></h2>
+<iframe src="https://player.vimeo.com/video/46098084?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>Working at <a href="www.hellicarandlewis.com">Hellicar &amp; Lewis</a>, with <a href="http://mazbox.com">Marek Bereza</a> and <a href="http://www.apollomedia.nl/">Diederick Huijbers</a>
+I wrote one of the interactive projections for Tryptich. Interaction
+was through a <span style="color: rgb(114, 229, 135);">Kinect</span> and the application was written in <span style="color: rgb(219, 229, 114);">openFrameworks</span>.</p>
+<h1>Würfel-Mosaik</h1>
+<h2><span style="color: rgb(156, 229, 114);">iOS</span>, <span style="color: rgb(229, 208, 114);">Objective-C</span>, <span style="color: rgb(229, 114, 146);">Facebook API</span>, <span style="color: rgb(229, 114, 114);">Twitter API</span>, <span style="color: rgb(187, 229, 114);">Core Graphics</span></h2>
+<p><img alt="Wurfel Mosaik" src="imgs/wurfelmosaik_alpha.jpg" /></p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/WoW7xDYfkyk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Working with <a href="www.mattwatkinsdesign.com">Matt Watkins</a> I developed an <span style="color: rgb(156, 229, 114);">iOS</span> (iPhone &amp; iPad) app to
+create the digial version of a classic game from Switzerland.</p>
+<p>The app was written in <span style="color: rgb(229, 208, 114);">Objective-C</span>, used iCloud for saving
+configurations on multiple devices and used social networking APIs to
+integrate social media.</p>
+    
+</div>
+</body>
+  
+</html>
