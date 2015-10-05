@@ -47,7 +47,7 @@ I co-wrote a d3 module in C++ for projecting visuals onto a large screen.
 # AMorpher
 ## C++, openFrameworks, surface reconstruction, 3D modelling
 
-For Alicia Ongar Perez sculptor I created a application to import two STL models,
+For Alicia Ongar Perez I created a application to import two STL models,
 interpolate between 3D shapes and export.
 
 ![AMorpher](imgs/amorpher.gif "AMorpher process")

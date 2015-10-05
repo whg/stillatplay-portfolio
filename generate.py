@@ -5,6 +5,7 @@ import re
 
 filename = "portfolio.md"
 template = "template.html"
+output = "index.html"
 
 links = {
     'Pierre Chanquion': "https://twitter.com/p_chanq",
@@ -50,7 +51,6 @@ html = markdown(data)
 
 
 t = open(template)
-output = filename[:-3] + ".html"
 with open(output, 'w') as f:
     
     f.write(t.read().replace("<!-- data -->", html))
