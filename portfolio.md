@@ -1,20 +1,12 @@
+# Samsung 360
+## C++, d3
 
-# Samsung Level
-## C++, openFrameworks, DMX, MIDI
+Sound reactive visuals to showcase a speaker.
 
-An openFrameworks application to simulate and map realtime MIDI to over 30 DMX
-lights (Sharpys, Nitros and Strobes).
+<iframe width="800" height="450" src="https://www.youtube.com/embed/qjuPh2qI8ts?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/JIjayCgumHQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-Working with Chris Cairns I developed an application to light up a
-half built theatre. This involved receiving MIDI from a Native
-Instruments Maschine and mapping the MIDI to a selection of
-lights. The application also send animations to a Novation Launchpad
-(via MIDI). Full control over mappings, sequences, colours was
-available through the app for tweaking while the shoot.
-
-
+Working at Artisan (the commercial branch of United Visual Artists),
+I co-wrote a d3 module in C++ for projecting visuals onto a large screen. 
 
 # Wekinator on the iPhone
 ## Machine Learning, C++, iOS, openFrameworks
@@ -31,17 +23,6 @@ to orientation.
 
 I presented a talk about the app at the Guerilla Science tent at
 Secret Garden Party 2014.
-
-# Samsung 360
-## C++, d3
-
-Sound reactive visuals to showcase a speaker.
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/qjuPh2qI8ts?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-Working at Artisan (the commercial branch of United Visual Artists),
-I co-wrote a d3 module in C++ for projecting visuals onto a large screen. 
-
 
 
 # AMorpher
@@ -66,6 +47,21 @@ mapped onto the closest points on this sphere.
 
 For the second problem, I used Poisson Surface Reconstruction to
 create a mesh that could be exported to STL.
+
+# Samsung Level
+## C++, openFrameworks, DMX, MIDI
+
+An openFrameworks application to simulate and map realtime MIDI to over 30 DMX
+lights (Sharpys, Nitros and Strobes).
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/JIjayCgumHQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+Working with Chris Cairns I developed an application to light up a
+half built theatre. This involved receiving MIDI from a Native
+Instruments Maschine and mapping the MIDI to a selection of
+lights. The application also send animations to a Novation Launchpad
+(via MIDI). Full control over mappings, sequences, colours was
+available through the app for tweaking while the shoot.
 
 
 # Inflated Egos
@@ -99,7 +95,7 @@ was through a Kinect and the application was written in openFrameworks.
 
 
 
-# Würfel-Mosaik
+# Wurfel-Mosaik
 ## iOS, Objective-C, Facebook API, Twitter API, Core Graphics
 
 ![Wurfel Mosaik](imgs/wurfelmosaik_alpha.jpg)
