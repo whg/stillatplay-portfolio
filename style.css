@@ -25,11 +25,14 @@ a {
 
 h1 {
     margin: 45px 0px 5px 0px;
+    font-size: 32px;
 }
 
 h2 {
     margin: 0px 0px 20px 0px;
     color: #bbb;
+    font-size: 15px;
+    text-align: right;
 }
 
 #container p span, h1 span {
